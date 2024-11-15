@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+body {
+  background-image: url('https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/01/Contact-Management-Tools-Featured-Image.jpeg'); /* Ensure the path to your image is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: transparent; 
+}
+
+
+.centerHeading {
+  text-align: center;
+  margin: 20px 0;
+  color: #2c3e50; 
+  font-family: 'Montserrat', sans-serif; 
+  padding: 10px 20px; 
+  border: 2px solid #2c3e50; 
+  border-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+.MuiButton-containedPrimary {
+  background-color: rgba(255, 255, 255, 0.525); 
+  color: black;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: rgba(255, 255, 255, 0.431); 
+}
+
+
+.MuiTableContainer-root {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.373); 
+}
+
+.MuiTable-root {
+  min-width: 650px;
+}
+
+.MuiTableHead-root {
+  background-color: #fffff761; 
+  color: #ffffff86;
+}
+
+.MuiTableCell-head {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.MuiTableCell-body {
+  text-align: center;
+}
+
+.MuiTableRow-root:nth-of-type(odd) {
+  background-color: white;
+}
+
+.MuiTableRow-root:nth-of-type(even) {
+  background-color: white;
+}
+
+.MuiTableRow-root:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.MuiTablePagination-root {
+  background-color: #fffff757; 
+}
+
+
+form {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.MuiTextField-root {
+  margin-bottom: 20px;
+}
+
+.MuiFormLabel-root {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+.MuiButton-root {
+  font-family: 'Poppins', sans-serif;
+}
