@@ -28,13 +28,13 @@ The Contact Management System is a web application designed to simplify the mana
 
 2. Install the server dependencies:
     ```bash
-    cd server
+    cd contact-management-backend
     npm install
     ```
 
 3. Install the client dependencies:
     ```bash
-    cd client
+    
     npm install
     ```
 
@@ -47,13 +47,11 @@ The Contact Management System is a web application designed to simplify the mana
 
 2. Start the backend server:
     ```bash
-    cd server
-    npm start
+    node server.js
     ```
 
 3. Start the frontend client:
     ```bash
-    cd client
     npm start
     ```
 
