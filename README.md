@@ -1,6 +1,6 @@
 # Contact Management System
 
-A web application for managing contacts with a focus on user-friendly interface and robust backend validations.
+The Contact Management System is a web application designed to simplify the management of personal and professional contacts. Users can create, update, view, and delete contacts with ease. The app ensures data integrity and consistency with strong backend validations.
 
 ## Table of Contents
 
