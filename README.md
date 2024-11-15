@@ -74,10 +74,10 @@ The Contact Management System is a web application designed to simplify the mana
   "jobTitle": "String, required"
 }
 
-Project Description
-The Contact Management System is a web application designed to simplify the management of personal and professional contacts. Users can create, update, view, and delete contacts with ease. The app ensures data integrity and consistency with strong backend validations.
+##Project Description
+A web application for managing contacts with a focus on user-friendly interface and robust backend validations.
 
-Technical Decisions
+##Technical Decisions
 Node.js and Express: Chosen for the backend to handle API requests and manage data operations with MongoDB.
 
 MongoDB: Selected for its flexibility and scalability as the database.
@@ -88,7 +88,7 @@ Axios: Employed for making HTTP requests from the frontend to the backend.
 
 Validation: Implemented both frontend and backend validations to ensure data integrity.
 
-How It Works
+##How It Works
 Backend
 API Endpoints:
 
